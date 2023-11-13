@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
 :root {
@@ -69,12 +70,13 @@ body {
 main {
     background-color: white;
     color: black;
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     border-radius: 0px 0px 10px 10px;
     z-index: -1;
     padding: 15px;
+    margin-bottom: 15px;
 }
 
 main h1, h2 {
@@ -98,5 +100,39 @@ main h2 {
 main p {
     text-indent: 15px;
     text-align: justify;
-    line-height: 1.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container-extra {
+    background-color: var(--color-two);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    z-index: -1;
+    max-width: 800px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.container-extra h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container-extra ul {
+    list-style-type: none;
+    padding: 0;
+    columns: 2;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.container-extra li::before {
+    content: '\2714\00A0\00A0';
+    position: absolute;
+    left: 0;
 }
