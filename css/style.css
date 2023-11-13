@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-one: #C5EBD6;
+    --color-two: #83E1AD;
+    --color-three: #3DDC84;
+    --color-four: #2FA866;
+    --color-five: #063D1E;
+}
+
+@font-face {
+    font-family: font-android;
+    src: url('../font/idroid.otf');
+}
+
+body {
+    background: var(--color-one);
+}
+
+.container-header {
+    background-image: linear-gradient(to top, var(--color-five), var(--color-four));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 40px;
+}
+
+.container-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    font-variant: small-caps;
+}
+
+.container-header p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.container-header li {
+    margin-right: 15px;
+}
+
+.container-header a {
+    text-decoration: none;
+    color: var(--color-two);
+    font-weight: bold;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container-header a:hover {
+    transform: scale(1.1);
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 10px 10px;
+    z-index: -1;
+    padding: 15px;
+}
+
+main h1, h2 {
+    font-family: font-android;
+    padding: 5px;
+    margin: 5px;
+    background: linear-gradient(to right, var(--color-three), var(--color-two));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+}
+
+main p {
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
