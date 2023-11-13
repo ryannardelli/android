@@ -5,6 +5,7 @@
     line-height: 1.6;
 }
 
+
 :root {
     --color-one: #C5EBD6;
     --color-two: #83E1AD;
@@ -32,7 +33,6 @@ body {
 }
 
 .container-header h1 {
-    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     padding: 10px;
@@ -41,7 +41,6 @@ body {
 }
 
 .container-header p {
-    font-size: 1.3rem;
     text-align: center;
     padding: 5px;
 }
@@ -89,14 +88,6 @@ main h1, h2 {
     display: inline-block;
 }
 
-main h1 {
-    font-size: 2rem;
-}
-
-main h2 {
-    font-size: 1.5rem;
-}
-
 main p {
     text-indent: 15px;
     text-align: justify;
@@ -126,7 +117,7 @@ main p {
     height: auto;
 }
 
-.box-image-bugdroid {
+.container-image-bugdroid {
     display: flex;
     justify-content: center;
     align-items: center;
