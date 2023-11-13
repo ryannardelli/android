@@ -104,6 +104,23 @@ main p {
     margin-bottom: 1em;
 }
 
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-five);
+    text-shadow: 0 0 0 transparent;
+    transition: text-shadow 0.3 ease;
+}
+
+.link:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
+}
+
+.text-emphasis {
+    color: var(--color-five);
+    font-weight: bold;
+}
+
 .container-image-android img, .container-image-irina img {
     max-width: 100%;
     height: auto;
