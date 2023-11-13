@@ -104,6 +104,33 @@ main p {
     margin-bottom: 1em;
 }
 
+.container-image-android img, .container-image-irina img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box-image-bugdroid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    background-color: var(--color-five);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 .container-extra {
     background-color: var(--color-two);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
