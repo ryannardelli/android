@@ -26,10 +26,7 @@ body {
 .container-header {
     background-image: linear-gradient(to top, var(--color-five), var(--color-four));
     color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    row-gap: 40px;
+    padding-inline: 16px;
 }
 
 .container-header h1 {
@@ -45,24 +42,49 @@ body {
     padding: 5px;
 }
 
-.container-header ul {
-    list-style-type: none;
-    padding: 0;
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.container-header li {
-    margin-right: 15px;
+.logo {
+    height: 48px;
+    width: 48px;
 }
 
-.container-header a {
-    text-decoration: none;
-    color: var(--color-two);
-    font-weight: bold;
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
 }
 
-.container-header a:hover {
-    transform: scale(1.1);
+.nav-list a {
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+}
+
+.burguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.burguer::before, .burguer::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
 }
 
 main {
