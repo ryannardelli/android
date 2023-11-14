@@ -59,7 +59,6 @@ body {
     text-decoration: none;
     color: var(--color-two);
     font-weight: bold;
-    transition: opacity 0.3s ease-in-out;
 }
 
 .container-header a:hover {
