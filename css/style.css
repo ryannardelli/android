@@ -66,6 +66,11 @@ body {
     font-size: 18px;
     color: #fff;
     padding-block: 16px;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    scale: 1.1;
 }
 
 .burguer {
