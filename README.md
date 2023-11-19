@@ -17,10 +17,6 @@ Este projeto se trata de uma página contendo informações sobre o mascote do A
 
 Não é necessário instalação. Basta abrir o arquivo HTML no navegador da sua escolha.
 
-## Demonstração online
-
-Veja a demosntração do site [aqui](https://ryannardelli.github.io/android/)
-
 ## Tecnologias Usadas
 
 - HTML5
