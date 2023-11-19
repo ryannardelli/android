@@ -32,9 +32,9 @@ android/
 ||-- mediaQuery.css <br>
 |-- js/ <br>
 ||-- app.js <br>
-|-- img/ <br>
 |-- font/ <br>
-||--  <br>
+||-- idroid.otf <br>
+|-- img/ <br>
 |-- bugdroid.png <br>
 |-- dan-droids.png <br>
 |-- favicon.io <br>
