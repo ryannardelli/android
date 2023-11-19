@@ -45,5 +45,3 @@ Sinta-se à vontade para contribuir! Abra um issue ou envie um pull request
 ## Contato
 
 Para sugestões e feedback, envie um email para [ryannardelli12@gmail.com](mailto:ryannardelli12@gmail.com) ou visite meu perfil no [GitHub](https://github.com/ryannardelli)
-
->>>>>>> 21bb51b2652a8cb8c212c9be0d6753940ed96e3f
