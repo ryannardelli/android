@@ -26,12 +26,9 @@ Não é necessário instalação. Basta abrir o arquivo HTML no navegador da sua
 ## Estrutura de diretórios
 
 android/
-|-- index.html <br>
 |-- css/ <br>
 ||-- style.css <br>
 ||-- mediaQuery.css <br>
-|-- js/ <br>
-||-- app.js <br>
 |-- font/ <br>
 ||-- idroid.otf <br>
 |-- img/ <br>
@@ -40,6 +37,10 @@ android/
 |-- favicon.io <br>
 |-- irina-blok.jpg <br>
 |-- logo-android.png <br>
+|-- js/ <br>
+||-- app.js <br>
+|-- index.html <br>
+|-- README.md <br>
 
 ## Contribuição
 
