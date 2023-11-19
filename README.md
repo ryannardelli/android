@@ -26,17 +26,17 @@ Não é necessário instalação. Basta abrir o arquivo HTML no navegador da sua
 ## Estrutura de diretórios
 
 android/
-|-- index.html
-|-- css/
-| |-- style.css
-|-- js/
-| |-- app.js
-|-- img/
-|-- bugdroid.png
-|-- dan-droids.png
-|-- favicon.io
-|-- irina-blok.jpg
-|-- logo-android.png
+|-- index.html <br>
+|-- css/ <br>
+| |-- style.css <br>
+|-- js/ <br>
+||-- app.js <br>
+|-- img/ <br>
+|-- bugdroid.png <br>
+|-- dan-droids.png <br>
+|-- favicon.io <br>
+|-- irina-blok.jpg <br>
+|-- logo-android.png <br>
 
 ## Contribuição
 
