@@ -27,8 +27,8 @@ Não é necessário instalação. Basta abrir o arquivo HTML no navegador da sua
 
 android/
 |-- css/ <br>
-||-- style.css <br>
 ||-- mediaQuery.css <br>
+||-- style.css <br>
 |-- font/ <br>
 ||-- idroid.otf <br>
 |-- img/ <br>
