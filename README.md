@@ -28,8 +28,8 @@ Não é necessário instalação. Basta abrir o arquivo HTML no navegador da sua
 android/
 |-- index.html <br>
 |-- css/ <br>
-| ||-- style.css <br>
-| ||-- mediaQuery.css <br>
+||-- style.css <br>
+||-- mediaQuery.css <br>
 |-- js/ <br>
 ||-- app.js <br>
 |-- img/ <br>
