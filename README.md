@@ -1,5 +1,5 @@
 # Android
-Este projeto se trata de uma página contendo informações sobre o mascote do Android. Eu peguei o projeto do curso de HTML5 e CSS3 do CursoemVídeo e resolvi fazer novamente com algumas ligeiras melhorias.
+Este projeto se trata de uma página contendo informações sobre o mascote do Android.
 
 ## Capturas de Telas
 
